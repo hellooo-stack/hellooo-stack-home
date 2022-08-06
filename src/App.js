@@ -1,25 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import logo from './assets/logo.png';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <header className="App-header">
+                <img src={logo} className="App-logo" alt="logo"/>
+                <p>
+                    Hellooo!!! Here is the Home page for hellooo-stack projects! <br/>
+                    We aim to build RELIABLE & FUNNY and USEFUL internet stuff,
+                    you can touch me here at <a href="https://github.com/hellooo-stack">GitHub.com</a> .
+                </p>
+            </header>
+        </div>
+    );
 }
 
 export default App;
